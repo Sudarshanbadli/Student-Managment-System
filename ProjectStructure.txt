@@ -1,0 +1,37 @@
+student-management-system/
+│
+├── index.php                # Login page
+├── register.php             # User registration
+├── forgot-password.php      # Password reset
+│
+├── dashboard/               # All dashboard pages
+│   ├── home.php             # Dashboard homepage
+│   ├── admin.php            # Admin dashboard
+│   ├── teacher.php          # Teacher dashboard
+│   ├── student.php          # Student dashboard
+│   ├── attendance.php       # Attendance management
+│   ├── timetable.php        # Timetable management
+│   ├── multimedia.php       # Multimedia gallery
+│   └── logout.php           # Logout handler
+│
+├── includes/                # PHP includes
+│   ├── db.php               # Database connection
+│   ├── functions.php        # Common functions
+│   ├── auth.php             # Authentication functions
+│   ├── admin_actions.php    # Admin action handlers
+│   ├── teacher_actions.php  # Teacher action handlers
+│   ├── student_actions.php  # Student action handlers
+│   └── media_actions.php    # Media action handlers
+│
+├── assets/                  # Static assets
+│   ├── css/
+│   │   └── style.css        # Main stylesheet
+│   ├── js/
+│   │   └── script.js        # Main JavaScript file
+│   ├── images/              # Image assets
+│   └── uploads/             # File uploads directory
+│
+├── sql/
+│   └── student_system.sql   # Database schema
+│
+└── README.md                # Project documentation
